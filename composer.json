@@ -1,0 +1,38 @@
+{
+    "name": "scottybo/laravel-linkedin-v2",
+    "type": "library",
+    "description": "Linkedin API v2 integration for Laravel and Lumen 5",
+    "keywords": ["LinkedIn","Laravel Framework","Lumen","API","Client","SDK","Integration","REST", "LinkedIn v2"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Scott Bowler",
+            "email": "scott.bowler@dcsworldwide.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/contracts": "~5.0",
+        "illuminate/http": "~5.0",
+        "illuminate/support": "~5.0",
+        "happyr/linkedin-api-client": "~1.0",
+        "php-http/guzzle6-adapter": "^1.1",
+        "php-http/curl-client": "^1.7",
+        "guzzlehttp/psr7": "^1.4",
+        "php-http/message": "^1.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0",
+        "orchestra/testbench": "~3.4@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Scottybo\\LinkedIn\\": "src/Scottybo/LinkedIn/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Scottybo\\LinkedIn\\Tests\\": "tests"
+        }
+    }
+}
